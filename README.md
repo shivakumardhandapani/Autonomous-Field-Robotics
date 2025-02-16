@@ -1,22 +1,61 @@
-Autonomous Field Robotics
-This repository contains a collection of projects and simulations developed for the study and application of autonomous field robotics. Each project is organized into its own directory, providing resources and code to explore various aspects of robotics, including 3D reprojection, image mapping, mosaicing, and environmental simulation.
+# AUTONOMOUS FIELD ROBOTICS
 
-Repository Structure
-The repository is structured as follows:
+This repository encompasses a series of projects and simulations developed to explore various facets of autonomous field robotics. Each project is housed in its respective directory, offering resources and code pertinent to topics such as 3D reprojection, image mapping, mosaicing, and environmental simulation.
 
-3d Reprojection/: Contains code and resources for 3D reprojection techniques.
-Image Mapping and Panaroma/: Includes scripts and data for image mapping and panorama creation.
-Image Mosaicing - Roman Shipwreck/: Focuses on image mosaicing, specifically applied to a Roman shipwreck dataset.
-Simple General Purpose Weather Simulator using Transition Matrix/: Offers a simple weather simulation model utilizing a transition matrix approach.
-Project Details
-3D Reprojection
-This project explores 3D reprojection methods, providing tools to project 3D points onto 2D planes and vice versa. It includes sample data and visualization scripts to aid in understanding the reprojection process.
+## Contents
 
-Image Mapping and Panorama
-In this project, techniques for image mapping and panorama stitching are implemented. The provided scripts allow for the transformation of image perspectives and the creation of wide-field panoramas from multiple images.
+3D Reprojection: Techniques and tools for projecting 3D points onto 2D planes and vice versa.
+Image Mapping and Panorama: Methods for image mapping and the creation of panoramic images.
+Image Mosaicing - Roman Shipwreck: Application of image mosaicing techniques to a dataset of a Roman shipwreck.
+Simple General Purpose Weather Simulator using Transition Matrix: A basic weather simulation model employing a transition matrix approach.
 
-Image Mosaicing - Roman Shipwreck
-Focusing on a dataset of a Roman shipwreck, this project demonstrates image mosaicing techniques. The goal is to create a cohesive mosaic image from a series of photographs, which is particularly useful in archaeological documentation.
+## Key Topics Covered
 
-Simple General Purpose Weather Simulator using Transition Matrix
-This project presents a basic weather simulation model based on a transition matrix. It simulates weather patterns over time, providing a foundation for more complex environmental simulations in robotic applications.
+3D Reprojection: Understanding the mathematical foundations and practical applications of projecting 3D data onto 2D surfaces and reconstructing 3D information from 2D data.
+Image Mapping and Panorama Creation: Techniques for transforming image perspectives and stitching multiple images to form wide-field panoramas.
+Image Mosaicing: Combining overlapping images to produce a seamless composite, with a focus on archaeological documentation.
+Environmental Simulation: Modeling weather patterns over time using transition matrices to simulate various environmental conditions.
+
+## Project Highlights
+
+## 3D Reprojection
+Objective: To develop tools for projecting 3D points onto 2D planes and reconstructing 3D coordinates from 2D data.
+Features:
+Sample datasets for testing reprojection algorithms.
+Visualization scripts to illustrate the reprojection process.
+Applications: Useful in computer vision tasks such as depth estimation and augmented reality.
+
+## Image Mapping and Panorama
+Objective: To implement methods for perspective transformation and panorama stitching.
+Features:
+Scripts for correcting image distortions and aligning multiple images.
+Techniques for blending images to create seamless panoramas.
+Applications: Applicable in virtual tours, landscape photography, and environmental monitoring.
+
+## Image Mosaicing - Roman Shipwreck
+Objective: To create a cohesive mosaic image from a series of photographs of a Roman shipwreck.
+Features:
+Algorithms for detecting and matching features across images.
+Tools for aligning and blending images into a single mosaic.
+Applications: Enhances archaeological documentation and analysis by providing comprehensive visual representations of excavation sites.
+
+## Simple General Purpose Weather Simulator using Transition Matrix
+Objective: To simulate weather patterns using a transition matrix model.
+Features:
+Implementation of a stochastic model to predict weather changes over time.
+Customizable parameters to simulate different climatic conditions.
+Applications: Serves as a foundational tool for environmental simulations in robotics and other fields.
+
+## Tools and Technologies Used
+
+Programming Languages: Python, MATLAB
+Libraries and Frameworks:
+OpenCV for image processing tasks.
+NumPy and SciPy for numerical computations.
+Matplotlib for data visualization.
+Acknowledgements
+
+These projects were developed as part of the Autonomous Field Robotics course at Northeastern University, under the guidance of Professor Thomas Consi.
+
+## Note
+This repository is intended for educational purposes, showcasing the work and concepts explored during the course.
