@@ -21,13 +21,6 @@ This notebook implements a full **Structure-from-Motion (SfM)** pipeline for 3D 
 - Google Colab
 - Matplotlib, Plotly (for visualization)
 
-## 🚀 How to Run
-
-1. Open the notebook in [Google Colab](https://colab.research.google.com/) or a local Jupyter environment.
-2. Install dependencies (first code cells use `%pip install`).
-3. Mount Google Drive to access the dataset.
-4. Run all cells sequentially for full processing and visualization.
-
 ## 📊 Results
 
 - Sparse 3D point cloud reconstructed from a sequence of static images
